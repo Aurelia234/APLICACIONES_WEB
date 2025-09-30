@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de contactos</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <h1> Formulario de contactos</h1>
+
+        <form action="datos.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Ashley"  required><br><br>
+            <label>Apellidos:</label>
+            <input type="text" name="Seriche" required><br><br>
+            <label> Ciudad</label>
+            <select name="ciudad">
+                <option value="Jaen">Jaen</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Valencia">Valencia</option>
+            </select><br></br>
+            <label>Preferencias:</label><br>
+            <input type="checkbox" name="preferencias" value="Deportes">Deportes<br>
+            <input type="checkbox" name="preferencias" value="Musica">Música<br>
+            <input type="checkbox" name="preferencias" value="Cine">Cine<br>
+            <input type="checkbox" name="preferencias" value="Tecnologia">Tecnología<br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
