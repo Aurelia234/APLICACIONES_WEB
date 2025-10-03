@@ -36,41 +36,8 @@ th {
 }
 .cv{border: 5px solid;}
 .perfil{border: 5px solid; margin-top: 20px;}
-img{border: 5px solid; margin-top: 20px;}
-img:hover{border: 5px solid red; margin-top: 20px;}
-img:active{border: 5px solid blue; margin-top: 20px;}
-img:focus{border: 5px solid green; margin-top: 20px;}
-img:visited{border: 5px solid orange; margin-top: 20px;}
 
-/* Footer styles */
-footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+img{ display: block; margin-left: auto; margin-right: auto;
 }
-/* Responsive design */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-    table, th, td {
-        font-size: 12px;
-    }
-}
-/* Add your custom styles below */
-/* Example: Change link color on hover */
-a:hover {
-    color: #ff6600;
-}
-/* Example: Add a background color to sections */
-section {
-    background-color: #e0f7fa;
-    padding: 10px;
-    margin-bottom: 20px;
+div{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #e0e0e0;
 }
