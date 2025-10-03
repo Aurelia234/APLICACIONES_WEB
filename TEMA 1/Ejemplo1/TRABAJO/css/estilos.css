@@ -31,7 +31,6 @@ td, th {
 th {
     background-color: #0ae311;
     color: white;
-    
 }
 .cv{border: 5px solid;}
 .datos{border: 5px solid; margin-top: 10px;}
@@ -41,6 +40,8 @@ th {
 .habilidades{border: 5px solid; margin-top: 10px;}
 .idiomas{border: 5px solid; margin-top: 10px;}
 .intereses{border: 5px solid; margin-top: 10px;}
+.Hora{background-color: #eaea05; color: white(0, 0, 0); font-weight: bold;}
+.Horario{background-color: #ecdd02; color: white(0, 0, 0); font-weight: bold;}
 img{ display: block; margin-left: right; margin-right: autoright; margin-top: 10px; margin-bottom: 10px;
 }
 div{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #e0e0e0;
