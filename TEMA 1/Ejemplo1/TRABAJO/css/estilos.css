@@ -35,9 +35,14 @@ th {
     color: white;
 }
 .cv{border: 5px solid;}
-.perfil{border: 5px solid; margin-top: 20px;}
-
-img{ display: block; margin-left: auto; margin-right: auto;
+.datos{border: 5px solid; margin-top: 10px;}
+.perfil{border: 5px solid; margin-top: 10px;}
+.educacion{border: 5px solid; margin-top: 10px;}
+.experiencia{border: 5px solid; margin-top: 10px;}
+.habilidades{border: 5px solid; margin-top: 10px;}
+.idiomas{border: 5px solid; margin-top: 10px;}
+.intereses{border: 5px solid; margin-top: 10px;}
+img{ display: block; margin-left: right; margin-right: autoright; margin-top: 10px; margin-bottom: 10px;
 }
 div{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #e0e0e0;
 }
