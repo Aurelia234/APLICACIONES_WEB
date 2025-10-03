@@ -2,8 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #f8f2f2;
-    color: rgb(19, 19, 19);
 }
 header, nav, main, footer {
     margin-bottom: 20px;
@@ -31,8 +29,9 @@ td, th {
 }
 /* color for table headers */
 th {
-    background-color: #4CAF50;
+    background-color: #0ae311;
     color: white;
+    
 }
 .cv{border: 5px solid;}
 .datos{border: 5px solid; margin-top: 10px;}
