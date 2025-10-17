@@ -106,6 +106,8 @@ th {
 .Hora{background-color: #0ae311; color: white(0, 0, 0); font-weight: bold;}
 .Horario{background-color: #ecdd02; color: white(0, 0, 0); font-weight: bold;transition: 1s; }
 .Horario:hover{transform: rotate(360deg);}
+.enviar{background-color:  rgb(159, 148, 208); color: white; font-weight: bold;transition: 3s;}
+.enviar:hover{transform: scale(150%);}
 img{ display: block; margin-left: right; margin-right: autoright; margin-top: 10px; margin-bottom: 10px;
 }
 .educacion{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
