@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
+    background-image: url(../img/foto\ TECLADO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1 {
     color: #090909;
@@ -22,10 +25,15 @@ h1 {
     text-underline-offset: 5px;
 }
 h2 {
-    color: #6b529a;
+    color: #0237f9;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
     margin-top: 20px;
+}
+h3 {
+    color: #0101fdcb;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 p {
     line-height: 1.6;
@@ -79,13 +87,13 @@ table {
     text-align: center;
 }
 td, th {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 1px solid #050505;
+    padding: 20px;
 }
 /* color for table headers */
 th {
     background-color: #0ae311;
-    color: white;
+    color: rgb(19, 18, 18);
 }
 .cv{border: 5px solid;}
 .datos{border: 5px solid; margin-top: 10px;}
@@ -95,9 +103,81 @@ th {
 .habilidades{border: 5px solid; margin-top: 10px;}
 .idiomas{border: 5px solid; margin-top: 10px;}
 .intereses{border: 5px solid; margin-top: 10px;}
-.Hora{background-color: #eaea05; color: white(0, 0, 0); font-weight: bold;}
-.Horario{background-color: #ecdd02; color: white(0, 0, 0); font-weight: bold;}
+.Hora{background-color: #0ae311; color: white(0, 0, 0); font-weight: bold;}
+.Horario{background-color: #ecdd02; color: white(0, 0, 0); font-weight: bold;transition: 1s; }
+.Horario:hover{transform: rotate(360deg);}
 img{ display: block; margin-left: right; margin-right: autoright; margin-top: 10px; margin-bottom: 10px;
 }
-div{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #e0e0e0;
+.educacion{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
 }
+.experiencia-laboral{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.datos-personales{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.intereses{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.idiomas{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.perfil-profesional{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.habilidades{border: 5px solid; margin-top: 20px; padding: 10px; background-color: #ffffff48;
+}
+.link{
+    display: inline-block;
+    
+}
+
+#currículum{background-color: rgb(230, 174, 237);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+transition: background-color 1s;
+}
+
+#currículum:hover{background-color: orange;}
+
+#formulario{background-color: rgb(230, 174, 237);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+#formulario:hover{background-color: orange;}
+
+#horario{background-color: rgb(230, 174, 237);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+#horario:hover{background-color: orange;}
+
+#contacto{background-color:rgb(230, 174, 237);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+#contacto:hover{background-color: orange;}
+
+#index{background-color: rgb(230, 174, 235);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+#index:hover{background-color: orange;}
+
+#repositorio{background-color:rgb(230, 174, 237);
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+#repositorio:hover{background-color: orange;}
+.IPE{background-color: #7cd5cf; color: white(0, 0, 0); font-weight: bold;}
+.Inglés{background-color: #f5a3b0; color: white(0, 0, 0); font-weight: bold;}
+.Aplicacionesweb{background-color: #e9d70c; color: white(0, 0, 0); font-weight: bold;}
+.Servicioenred{background-color: #9bf6ff; color: white(0, 0, 0); font-weight: bold;}
+.Fundamentosdeprogramación{background-color: #414d83; color: white(0, 0, 0); font-weight: bold;}
+.Fundamentosdeprogramacion{background-color: #414d83; color: white(0, 0, 0); font-weight: bold;}
+.Seguridadinformática{background-color: #caffbf; color: white(0, 0, 0); font-weight: bold;}
+.Sistemaoperativoenred{background-color: #2e9ac9; color: white(0, 0, 0); font-weight: bold;}
+.proyecto{background-color: #bdb2ff; color: white(0, 0, 0); font-weight: bold;}
+.Proyecto{background-color: #bdb2ff; color: white(0, 0, 0); font-weight: bold;}
+.RECREO{background-color: #f7f4f4; color: white(0, 0, 0); font-weight: bold;}
