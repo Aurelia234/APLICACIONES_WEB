@@ -7,12 +7,14 @@
     </head>
     <body>
         <h2>Actividad 2 - Comprobar la edad con JavaScript</h2>
-        <form action="proceso.php" method="get">
-        <input for ="nombre" type="text" id="nombre" placeholder="Escribe tu nombre"><br><br>
-        <input for ="apellido" type="text" id="apellido" placeholder="Escribe tu apellido"><br><br>
-        <label>Escribe tu edad:</label><br>
-        <input type="number" id="edad">
-        <input type="button" value="Comprobar" onclick="comprobarEdad()">
+        <form action="include.php" method="get">
+        Nombre:
+         <input for ="nombre" type="text" id="nombre" name="nombre"><br><br>
+        Apellido:
+         <input for ="apellido" type="text" id="apellido"  name="apellido"><br><br>
+        Edad:
+         <input type="text" id="edad" name="edad">
+        <button type="submit" value="">Comprobar</button>
         </form>
     </body>
   
