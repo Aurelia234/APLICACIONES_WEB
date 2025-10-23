@@ -6,16 +6,37 @@
         <title>Document</title>
     </head>
         <body>
-            <h1>Actividad crear JavaScript</h1>
-            <label for="comentario">Añade un comentario:</label>
-            <div>
-                <input type="text" id="Anñade un comentario" name="Añade un comentario">
-             <button onclick="cambiarTexto()">Añadir</button>
-            </div>
-            <hr>
-            <div>
-                <label for="comentario">Comentarios:</label>
-                <input type="text" id="listaComentario" name="comentario">
-            </div>
+             <h2>Actividad 1 - Crear elementos con JavaScript</h2>
+
+                <label>Escribe un comentario:</label><br>
+                <input type="text" id="comentario">
+                <input type="button" value="Añadir" onclick="agregarComentario()">
+
+                <h3>Comentarios:</h3>
+                <div id="listaComentarios" style="border:1px solid rgb(119, 116, 116); padding:10px; width:300px;">
+                    <!-- Aquí se añadirán los párrafos -->
+                </div>
+
+                <script>
+                    function agregarComentario() {
+    
+                // Completa aquí tu función agregarComentario()
+                    // Deberás:
+                    // 1. Obtener el texto del input con getElementById("comentario").value
+                    var comentario = document.getElementById("comentario").value;
+                    // 2. Crear un nuevo elemento <p> con createElement("p")
+                    var nuevoParrafo = document.createElement("P");
+                    // 3. Crear un nodo de texto con createTextNode(texto)
+                    var contenido = document.createTextNode(comentario);
+                    // 4. Añadir el texto al párrafo con appendChild()
+                    nuevoParrafo.appendChild(contenido);
+                    // 5. Añadir el párrafo al div "listaComentarios" también con appendChild()
+                    var contenedor = document.getElementById("listaComentarios"); 
+                    contenedor.appendChild(nuevoParrafo);
+                    contenedor.style.backgroundColor = "yellow"; // Cambia el color de fondo del contenedor }
+                    nuevoParrafo.style.color = "blue"; // Cambia el color del texto del nuevo párrafo a azul
+                    }
+            </script>
+
         </body>
 </html>
